@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".leaveapplication">
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+
+        android:gravity="center"
+
+        android:text="Leave Details"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tleaving"
+        android:hint="Leaving date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tjoiningdate"
+
+        android:hint="joining date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/treasonofleave"
+        android:hint="Reason of leave"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tname"
+        android:hint="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="12"
+
+        android:id="@+id/tCNIC"
+        android:hint=" contact 11 digits"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tcityy"
+        android:hint="City of leaving Home address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="14"
+
+        android:id="@+id/tcontacts"
+        android:hint="Cnic 14 digits"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/ok"
+
+        android:text="OK"/>
+
+
+</LinearLayout>

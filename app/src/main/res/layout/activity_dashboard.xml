@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dt"
+    tools:context=".dashboard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+
+
+
+        android:orientation="vertical">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="Admin Registration "
+            android:background="@drawable/rounded_btn"
+
+            android:id="@+id/hostelregistration"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="Client Registration "
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_btn"
+
+            android:id="@+id/clientregistration"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="Staff Registration "
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_btn"
+
+            android:id="@+id/staffregistration"/>
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Edit Registration "-->
+<!--            android:visibility="visible"-->
+
+<!--            android:drawableLeft="@drawable/home"-->
+<!--            android:id="@+id/editregistration"/>-->
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="Booking room "
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_btn"
+
+            android:id="@+id/qrccode"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="location "
+            android:visibility="gone"
+            android:drawableLeft="@drawable/location"
+            android:id="@+id/locc"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:background="@drawable/rounded_btn"
+            android:text="leave Application  "
+            android:layout_margin="5dp"
+
+            android:id="@+id/leave"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Phone and Address"
+            android:layout_margin="5dp"
+
+            android:id="@+id/phone"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:background="@drawable/rounded_btn"
+            android:text="Attendence"
+
+            android:id="@+id/at"/>
+        //
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            android:text="Neoventive Solutions"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/neocontact"
+
+            android:text="Contact Us: 03435000500"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/neoaddress"
+            android:textSize="20sp"
+
+            android:text="Address:Islamabad Stock Exchange Tower, Block J F 7/1 Blue Area, Islamabad, Islamabad Capital Territory 44000"/>
+
+
+
+        //
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:background="@color/teal_200"
+            android:gravity="center"
+
+
+            android:orientation="horizontal">
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home"
+                android:id="@+id/newdhome"
+                android:layout_marginEnd="40dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/booking"
+                android:id="@+id/books"
+                android:layout_marginEnd="40dp"/>
+
+            <!--    <ImageView-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:src="@drawable/qrcode"-->
+            <!--        android:id="@+id/newquram"-->
+
+            <!--        android:layout_marginEnd="40dp"/>-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/attendence"
+                android:id="@+id/newsadapay"
+
+                android:layout_marginEnd="40dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"
+                android:id="@+id/hostelnewlocation"
+
+                android:layout_marginEnd="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
